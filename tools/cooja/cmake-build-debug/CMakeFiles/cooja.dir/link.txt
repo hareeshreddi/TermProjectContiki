@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/cooja.dir/build/test_template.c.o CMakeFiles/cooja.dir/config/test_template.c.o CMakeFiles/cooja.dir/examples/project_new_interface/dummy_intf.c.o  -o cooja 

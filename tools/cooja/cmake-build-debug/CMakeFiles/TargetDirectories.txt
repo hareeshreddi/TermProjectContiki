@@ -1,0 +1,3 @@
+/media/mathayus/Windows/contiki/tools/cooja/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/media/mathayus/Windows/contiki/tools/cooja/cmake-build-debug/CMakeFiles/edit_cache.dir
+/media/mathayus/Windows/contiki/tools/cooja/cmake-build-debug/CMakeFiles/cooja.dir

@@ -1,0 +1,768 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
+    <generated>
+      <config projectName="contiki" targetName="contiki" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f8b04d16-02e6-4d12-b28f-996384304297" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FUSProjectUsageTrigger">
+    <session id="225522354">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="15" />
+          <entry key="project.open.time.109" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.20" value="1" />
+          <entry key="project.open.time.21" value="1" />
+          <entry key="project.open.time.26" value="1" />
+          <entry key="project.open.time.27" value="1" />
+          <entry key="project.open.time.28" value="1" />
+          <entry key="project.open.time.30" value="1" />
+          <entry key="project.open.time.32" value="1" />
+          <entry key="project.open.time.34" value="2" />
+          <entry key="project.open.time.35" value="2" />
+          <entry key="project.open.time.36" value="2" />
+          <entry key="project.open.time.39" value="2" />
+          <entry key="project.open.time.42" value="1" />
+          <entry key="project.open.time.45" value="1" />
+          <entry key="project.opened" value="19" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="Makefile" value="2" />
+          <entry key="c" value="121" />
+          <entry key="h" value="52" />
+          <entry key="py" value="2" />
+          <entry key="txt" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CMakeLists.txt" value="3" />
+          <entry key="ObjectiveC" value="173" />
+          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="Python" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="c" value="2964" />
+          <entry key="h" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="ObjectiveC" value="2970" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.cidr.testingFrameworks.usages" />
+      <usages-collector id="statistics.vcs.git.usages" />
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/examples/ipv6/rpl-udp/udp-client-modified.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1496">
+              <caret line="88" column="33" selection-start-line="88" selection-start-column="33" selection-end-line="88" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/examples/ipv6/rpl-udp/udp-server-modified.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1343">
+              <caret line="79" column="24" selection-start-line="79" selection-start-column="24" selection-end-line="79" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/net/ipv6/uip6.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="884">
+              <caret line="52" column="65" selection-start-line="52" selection-start-column="54" selection-end-line="52" selection-end-column="65" />
+              <folding>
+                <element signature="e#18608#26209#0" expanded="true" />
+                <element signature="e#44554#45146#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/net/ip/uip-udp-packet.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1224">
+              <caret line="72" column="18" selection-start-line="72" selection-start-column="6" selection-end-line="72" selection-end-column="18" />
+              <folding>
+                <element signature="e#1823#1857#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/net/ip/tcpip.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2142">
+              <caret line="126" column="20" selection-start-line="126" selection-end-line="126" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/core/net/ipv6/sicslowpan.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="560">
+              <caret line="1776" column="89" selection-start-line="1776" selection-start-column="89" selection-end-line="1776" selection-end-column="89" />
+              <folding>
+                <element signature="e#17189#17432#0" expanded="true" />
+                <element signature="e#20393#20497#0" expanded="true" />
+                <element signature="e#27850#27972#0" expanded="true" />
+                <element signature="e#38466#38576#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/net/queuebuf.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="799">
+              <caret line="47" column="20" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="20" />
+              <folding>
+                <element signature="e#1849#1869#0" expanded="true" />
+                <element signature="e#2036#2111#0" expanded="true" />
+                <element signature="e#2156#2197#0" expanded="true" />
+                <element signature="e#2258#2275#0" expanded="true" />
+                <element signature="e#2614#3516#0" expanded="true" />
+                <element signature="e#3545#3587#0" expanded="true" />
+                <element signature="e#3643#3701#0" expanded="true" />
+                <element signature="e#3763#3805#0" expanded="true" />
+                <element signature="e#3890#3929#0" expanded="true" />
+                <element signature="e#3973#7985#0" expanded="true" />
+                <element signature="e#8800#8879#0" expanded="true" />
+                <element signature="e#9121#9224#0" expanded="true" />
+                <element signature="e#9314#9595#0" expanded="true" />
+                <element signature="e#9937#10136#0" expanded="true" />
+                <element signature="e#10168#10309#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CMakeLists.txt" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>contiki-conf.h</find>
+      <find>z1</find>
+      <find>include</find>
+      <find>tcpip_ipv6_output</find>
+      <find>tcpip_ipv6</find>
+      <find>last_tx_status</find>
+      <find>rime_sniffer_add</find>
+      <find>callback</find>
+      <find>status ==</find>
+      <find>pcap</find>
+      <find>sicslowpan_init(</find>
+      <find>queuebuf_new</find>
+      <find>queuebuf_list</find>
+      <find>output</find>
+      <find>send</find>
+      <find>sicslowpan_buf</find>
+      <find>reass</find>
+      <find>send_pac</find>
+      <find>reass_timer</find>
+      <find>uip_debug_ipaddr_print</find>
+      <find>PRINT6ADDR</find>
+      <find>printf</find>
+      <find>tcpip_outp</find>
+      <find>tcpip_ip</find>
+      <find>tcpip_set</find>
+      <find>tcpip_set_outputfunc</find>
+      <find>uip_appdata</find>
+      <find>buffer</find>
+      <find>sicslowpan_driver</find>
+      <find>input</find>
+    </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/core/net/rpl</dir>
+      <dir>$PROJECT_DIR$/apps</dir>
+      <dir>$PROJECT_DIR$/apps/shell</dir>
+      <dir>$PROJECT_DIR$/examples/ipv6</dir>
+      <dir>$PROJECT_DIR$/core/net/mac</dir>
+      <dir>$PROJECT_DIR$/core/net</dir>
+      <dir>$PROJECT_DIR$/core</dir>
+      <dir>$PROJECT_DIR$</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/examples/rpl-attacks" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/apps/shell/shell-collect-view.c" />
+        <option value="$PROJECT_DIR$/core/net/ipv6/uip-ds6.c" />
+        <option value="$PROJECT_DIR$/core/net/rpl/rpl-timers.c" />
+        <option value="$PROJECT_DIR$/core/net/rpl/rpl-private.h" />
+        <option value="$PROJECT_DIR$/examples/ipv6/rpl-udp/udp-server.c" />
+        <option value="$PROJECT_DIR$/examples/z1/ipv6/z1-websense/z1-websense.c" />
+        <option value="$PROJECT_DIR$/core/net/ipv6/uip6.c" />
+        <option value="$PROJECT_DIR$/examples/hello-world/hello-world.c" />
+        <option value="$PROJECT_DIR$/examples/ipv6/rpl-udp/udp-client.c" />
+        <option value="$PROJECT_DIR$/examples/ipv6/rpl-border-router/border-router-modified.c" />
+        <option value="$PROJECT_DIR$/core/net/ipv6/sicslowpan-backup.c" />
+        <option value="$PROJECT_DIR$/platform/z1/platform-conf.h" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/platform/z1/contiki-z1-main.c" />
+        <option value="$PROJECT_DIR$/examples/ipv6/rpl-udp/udp-server-modified.c" />
+        <option value="$PROJECT_DIR$/examples/ipv6/rpl-udp/udp-client-modified.c" />
+        <option value="$PROJECT_DIR$/core/net/ipv6/sicslowpan.c" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="75" />
+    <option name="y" value="24" />
+    <option name="width" value="1279" />
+    <option name="height" value="696" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="contiki" type="b2602c69:ProjectViewProjectNode" />
+              <item name="contiki" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="contiki" type="b2602c69:ProjectViewProjectNode" />
+              <item name="contiki" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="contiki" type="b2602c69:ProjectViewProjectNode" />
+              <item name="contiki" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="net" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="contiki" type="b2602c69:ProjectViewProjectNode" />
+              <item name="contiki" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="net" type="462c0819:PsiDirectoryNode" />
+              <item name="ip" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="contiki" type="b2602c69:ProjectViewProjectNode" />
+              <item name="contiki" type="462c0819:PsiDirectoryNode" />
+              <item name="examples" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="contiki" type="b2602c69:ProjectViewProjectNode" />
+              <item name="contiki" type="462c0819:PsiDirectoryNode" />
+              <item name="examples" type="462c0819:PsiDirectoryNode" />
+              <item name="ipv6" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="contiki" type="b2602c69:ProjectViewProjectNode" />
+              <item name="contiki" type="462c0819:PsiDirectoryNode" />
+              <item name="examples" type="462c0819:PsiDirectoryNode" />
+              <item name="ipv6" type="462c0819:PsiDirectoryNode" />
+              <item name="rpl-udp" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.contiki">
+    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="contiki" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="contiki" TARGET_NAME="contiki" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="contiki" RUN_TARGET_NAME="contiki">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Build All" />
+      <item itemvalue="Application.contiki" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f8b04d16-02e6-4d12-b28f-996384304297" name="Default Changelist" comment="" />
+      <created>1535980132924</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1535980132924</updated>
+      <workItem from="1535980150613" duration="1537000" />
+      <workItem from="1536159354334" duration="9349000" />
+      <workItem from="1536228822101" duration="722000" />
+      <workItem from="1536229621423" duration="7618000" />
+      <workItem from="1537173443616" duration="601000" />
+      <workItem from="1537278085699" duration="11706000" />
+      <workItem from="1537546977066" duration="10649000" />
+      <workItem from="1537891478972" duration="8321000" />
+      <workItem from="1537949104964" duration="1256000" />
+      <workItem from="1537971167027" duration="10320000" />
+      <workItem from="1538028982614" duration="4101000" />
+      <workItem from="1538045300627" duration="2649000" />
+      <workItem from="1538058691264" duration="13440000" />
+      <workItem from="1538110801817" duration="1685000" />
+      <workItem from="1538113968919" duration="7517000" />
+      <workItem from="1538296258511" duration="10303000" />
+      <workItem from="1538377360024" duration="3950000" />
+      <workItem from="1538394692237" duration="3903000" />
+      <workItem from="1538460602646" duration="565000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="110192000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="64" y="-11" width="1303" height="780" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.212749" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="CMake" order="11" weight="0.32919255" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/core/net/ip/tcp-socket.c">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/sys/node-id.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="34" column="8" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/z1/ipv6/z1-websense/z1-websense.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="562">
+          <caret line="177" column="46" selection-start-line="177" selection-start-column="46" selection-end-line="177" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/ipv6/rpl-border-router/border-router.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="373" column="14" lean-forward="true" selection-end-line="388" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/hello-world/hello-world.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="56" column="28" selection-end-line="498" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/ipv6/rpl-udp/Makefile">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/ipv6/simple-udp-rpl/Makefile">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/net/ip/simple-udp.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1755" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/ipv6/rpl-border-router/border-router-modified.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6705">
+          <caret line="447" selection-start-line="447" selection-end-line="447" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/ipv6/rpl-collect/udp-sender.c">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/ipv6/simple-udp-rpl/broadcast-example.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1335">
+          <caret line="89" column="4" selection-start-line="89" selection-start-column="4" selection-end-line="90" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/ipv6/rpl-udp/udp-server.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/ipv6/rpl-collect/udp-sink.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1350" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/net/netstack.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-248" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/contiki-net.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="457">
+          <caret line="53" column="9" lean-forward="true" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/net/llsec/llsec.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-803" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/net/llsec/llsec802154.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-518" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/net/llsec/nullsec.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-608" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/net/mac/mac.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="53" column="7" selection-start-line="53" selection-start-column="7" selection-end-line="53" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/net/mac/mac.c">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/net/mac/csma.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="857">
+          <caret line="449" column="13" selection-start-line="449" selection-start-column="13" selection-end-line="449" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/net/mac/nullmac.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-630" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/net/ipv6/sicslowpan.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1335" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/net/mac/nullrdc.c">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/net/ipv6/sicslowpan-backup.c" />
+    <entry file="file://$PROJECT_DIR$/examples/ipv6/rpl-udp/udp-client.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="52" column="6" selection-start-line="52" selection-start-column="6" selection-end-line="52" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platform/z1/contiki-conf.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2392">
+          <caret line="190" lean-forward="true" selection-start-line="190" selection-end-line="190" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platform/z1/platform-conf.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="256" column="20" selection-start-line="256" selection-start-column="18" selection-end-line="256" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/net/ip/uip-udp-packet.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-233" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/net/ipv6/uip-ds6-nbr.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="203" column="2" lean-forward="true" selection-start-line="203" selection-start-column="2" selection-end-line="203" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="7941" column="39" selection-start-line="7941" selection-start-column="39" selection-end-line="7941" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cpu/avr/radio/mac/sicslowmac.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="636" column="2" selection-start-line="636" selection-start-column="2" selection-end-line="636" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cpu/6502/6502def.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="71" column="8" selection-start-line="71" selection-start-column="8" selection-end-line="71" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/net/ip/uipopt.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="569" column="8" selection-start-line="569" selection-start-column="8" selection-end-line="569" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/net/linkaddr.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="69" column="2" selection-start-line="69" selection-start-column="2" selection-end-line="69" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/net/ipv6/uip-ds6.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="182" column="2" selection-start-line="182" selection-start-column="2" selection-end-line="182" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cpu/native/net/tapdev6.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="96" column="8" selection-start-line="96" selection-start-column="8" selection-end-line="96" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/net/ip/uip-debug.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="78" column="47" selection-start-line="78" selection-start-column="25" selection-end-line="78" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/net/ip/uip-debug.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platform/z1/contiki-z1-main.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2584">
+          <caret line="152" column="3" selection-start-line="152" selection-start-column="3" selection-end-line="152" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/stdint.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="48" column="28" selection-start-line="48" selection-start-column="28" selection-end-line="48" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/dev/slip.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="110" column="23" selection-start-line="110" selection-start-column="23" selection-end-line="110" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/net/ip/uip.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="75" column="8" selection-start-line="75" selection-start-column="8" selection-end-line="75" selection-end-column="8" />
+          <folding>
+            <element signature="e#2103#2153#0" expanded="true" />
+            <element signature="e#54632#62954#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/net/netstack.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="116" column="7" selection-start-line="116" selection-start-column="7" selection-end-line="116" selection-end-column="7" />
+          <folding>
+            <element signature="e#2206#2248#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/ipv6/rpl-udp/udp-client-modified.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1496">
+          <caret line="88" column="33" selection-start-line="88" selection-start-column="33" selection-end-line="88" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/ipv6/rpl-udp/udp-server-modified.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1343">
+          <caret line="79" column="24" selection-start-line="79" selection-start-column="24" selection-end-line="79" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/net/ipv6/uip6.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="52" column="65" selection-start-line="52" selection-start-column="54" selection-end-line="52" selection-end-column="65" />
+          <folding>
+            <element signature="e#18608#26209#0" expanded="true" />
+            <element signature="e#44554#45146#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/net/ip/uip-udp-packet.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1224">
+          <caret line="72" column="18" selection-start-line="72" selection-start-column="6" selection-end-line="72" selection-end-column="18" />
+          <folding>
+            <element signature="e#1823#1857#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/net/ip/tcpip.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2142">
+          <caret line="126" column="20" selection-start-line="126" selection-end-line="126" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/net/queuebuf.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="47" column="20" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="20" />
+          <folding>
+            <element signature="e#1849#1869#0" expanded="true" />
+            <element signature="e#2036#2111#0" expanded="true" />
+            <element signature="e#2156#2197#0" expanded="true" />
+            <element signature="e#2258#2275#0" expanded="true" />
+            <element signature="e#2614#3516#0" expanded="true" />
+            <element signature="e#3545#3587#0" expanded="true" />
+            <element signature="e#3643#3701#0" expanded="true" />
+            <element signature="e#3763#3805#0" expanded="true" />
+            <element signature="e#3890#3929#0" expanded="true" />
+            <element signature="e#3973#7985#0" expanded="true" />
+            <element signature="e#8800#8879#0" expanded="true" />
+            <element signature="e#9121#9224#0" expanded="true" />
+            <element signature="e#9314#9595#0" expanded="true" />
+            <element signature="e#9937#10136#0" expanded="true" />
+            <element signature="e#10168#10309#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/net/ipv6/sicslowpan.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="1776" column="89" selection-start-line="1776" selection-start-column="89" selection-end-line="1776" selection-end-column="89" />
+          <folding>
+            <element signature="e#17189#17432#0" expanded="true" />
+            <element signature="e#20393#20497#0" expanded="true" />
+            <element signature="e#27850#27972#0" expanded="true" />
+            <element signature="e#38466#38576#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
