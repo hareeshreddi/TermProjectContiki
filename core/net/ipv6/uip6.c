@@ -1238,6 +1238,7 @@ uip_process(uint8_t flag)
       PRINT6ADDR(&UIP_IP_BUF->destipaddr);
       PRINTF("\n");
       UIP_STAT(++uip_stat.ip.forwarded);
+        return;
       goto send;
     } else {
       if((uip_is_addr_link_local(&UIP_IP_BUF->srcipaddr)) &&
