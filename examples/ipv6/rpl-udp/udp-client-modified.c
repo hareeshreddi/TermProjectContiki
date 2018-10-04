@@ -50,7 +50,7 @@
 #include "../../../core/sys/node-id.h"
 
 #ifndef PERIOD
-#define PERIOD 30
+#define PERIOD 3
 #endif
 
 #define START_INTERVAL		(15 * CLOCK_SECOND)
@@ -86,7 +86,7 @@ send_packet(void *ptr)
     seq_id++;
     PRINTF("DATA send to %d 'Hello %d'\n",
            server_ipaddr.u8[sizeof(server_ipaddr.u8) - 1], seq_id);
-    sprintf(buf, "DUMMYDUMMYDUMMY %d_%d", node_id, seq_id);
+    sprintf(buf, "DUMMYDUMMYDUMMYDUMMYDUMMYDUMMYDUMMYDUMMYDUMMYDUMMYDUMMYDUMMYDUMMYDUMMYDUMMYDUMMYDUMMYDUMMYDUMMY %d_%d", node_id, seq_id);
     uip_udp_packet_sendto(client_conn, buf, strlen(buf),
                           &server_ipaddr, UIP_HTONS(UDP_SERVER_PORT));
 }
@@ -178,7 +178,7 @@ UIP_HTONS(client_conn->lport), UIP_HTONS(client_conn->rport));
 #if WITH_COMPOWER
 powertrace_sniff(POWERTRACE_ON);
 #endif
-
+send_packet(NULL);
 etimer_set(&periodic, SEND_INTERVAL);
 while(1) {
 PROCESS_YIELD();

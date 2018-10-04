@@ -1411,7 +1411,7 @@ output(const uip_lladdr_t *localdest)
         linkaddr_copy(&dest, (const linkaddr_t *)localdest);
     }
 
-    PRINTFO("sicslowpan output: sending packet len %d\n", uip_len);
+    printf(">>>sicslowpan output: sending packet len %d\n", uip_len);
 
     if(uip_len >= COMPRESSION_THRESHOLD) {
         /* Try to compress the headers */
@@ -1457,16 +1457,16 @@ output(const uip_lladdr_t *localdest)
          */
         int estimated_fragments = ((int)uip_len) / ((int)MAC_MAX_PAYLOAD - SICSLOWPAN_FRAGN_HDR_LEN) + 1;
         int freebuf = queuebuf_numfree() - 1;
-        PRINTFO("uip_len: %d, fragments: %d, free bufs: %d\n", uip_len, estimated_fragments, freebuf);
+        printf("uip_len: %d, fragments: %d, free bufs: %d\n", uip_len, estimated_fragments, freebuf);
         if(freebuf < estimated_fragments) {
             PRINTFO("Dropping packet, not enough free bufs\n");
             return 0;
         }
 
-        PRINTFO("Fragmentation sending packet len %d\n", uip_len);
+        printf("Fragmentation sending packet len %d\n", uip_len);
 
         /* Create 1st Fragment */
-        PRINTFO("sicslowpan output: 1rst fragment ");
+        printf("sicslowpan output: 1st fragment ");
 
         /* move HC1/HC06/IPv6 header */
         memmove(packetbuf_ptr + SICSLOWPAN_FRAG1_HDR_LEN, packetbuf_ptr, packetbuf_hdr_len);
@@ -1486,7 +1486,7 @@ output(const uip_lladdr_t *localdest)
         /* Copy payload and send */
         packetbuf_hdr_len += SICSLOWPAN_FRAG1_HDR_LEN;
         packetbuf_payload_len = (max_payload - packetbuf_hdr_len) & 0xfffffff8;
-        PRINTFO("(len %d, tag %d)\n", packetbuf_payload_len, my_tag);
+        printf("(len %d, tag %d, maxpayload %d)\n", packetbuf_payload_len, my_tag, max_payload);
         memcpy(packetbuf_ptr + packetbuf_hdr_len,
                (uint8_t *)UIP_IP_BUF + uncomp_hdr_len, packetbuf_payload_len);
         packetbuf_set_datalen(packetbuf_payload_len + packetbuf_hdr_len);
@@ -1507,7 +1507,7 @@ output(const uip_lladdr_t *localdest)
             PRINTFO("error in fragment tx, dropping subsequent fragments.\n");
             return 0;
         }
-
+//        return 1;
         /* set processed_ip_out_len to what we already sent from the IP payload*/
         processed_ip_out_len = packetbuf_payload_len + uncomp_hdr_len;
 
@@ -1523,7 +1523,7 @@ output(const uip_lladdr_t *localdest)
               ((SICSLOWPAN_DISPATCH_FRAGN << 8) | uip_len));
         packetbuf_payload_len = (max_payload - packetbuf_hdr_len) & 0xfffffff8;
         while(processed_ip_out_len < uip_len) {
-            PRINTFO("sicslowpan output: fragment ");
+            printf("sicslowpan output: fragment ");
             PACKETBUF_FRAG_PTR[PACKETBUF_FRAG_OFFSET] = processed_ip_out_len >> 3;
 
             /* Copy payload and send */
@@ -1531,14 +1531,14 @@ output(const uip_lladdr_t *localdest)
                 /* last fragment */
                 packetbuf_payload_len = uip_len - processed_ip_out_len;
             }
-            PRINTFO("(offset %d, len %d, tag %d)\n",
+            printf("(offset %d, len %d, tag %d)\n",
                     processed_ip_out_len >> 3, packetbuf_payload_len, my_tag);
             memcpy(packetbuf_ptr + packetbuf_hdr_len,
                    (uint8_t *)UIP_IP_BUF + processed_ip_out_len, packetbuf_payload_len);
             packetbuf_set_datalen(packetbuf_payload_len + packetbuf_hdr_len);
             q = queuebuf_new_from_packetbuf();
             if(q == NULL) {
-                PRINTFO("could not allocate queuebuf, dropping fragment\n");
+                printf("could not allocate queuebuf, dropping fragment\n");
                 return 0;
             }
             send_packet(&dest);
@@ -1551,12 +1551,12 @@ output(const uip_lladdr_t *localdest)
             if((last_tx_status == MAC_TX_COLLISION) ||
                (last_tx_status == MAC_TX_ERR) ||
                (last_tx_status == MAC_TX_ERR_FATAL)) {
-                PRINTFO("error in fragment tx, dropping subsequent fragments.\n");
+                printf("error in fragment tx, dropping subsequent fragments.\n");
                 return 0;
             }
         }
 #else /* SICSLOWPAN_CONF_FRAG */
-        PRINTFO("sicslowpan output: Packet too large to be sent without fragmentation support; dropping packet\n");
+        printf("sicslowpan output: Packet too large to be sent without fragmentation support; dropping packet\n");
     return 0;
 #endif /* SICSLOWPAN_CONF_FRAG */
     } else {
@@ -1567,6 +1567,7 @@ output(const uip_lladdr_t *localdest)
          */
         memcpy(packetbuf_ptr + packetbuf_hdr_len, (uint8_t *)UIP_IP_BUF + uncomp_hdr_len,
                uip_len - uncomp_hdr_len);
+        printf("NO FRAG >>>>>> datalen %d, uncomphedr %d,  maxpay %d, packetbufhedr %d \n", uip_len, uncomp_hdr_len, max_payload, packetbuf_hdr_len);
         packetbuf_set_datalen(uip_len - uncomp_hdr_len + packetbuf_hdr_len);
         send_packet(&dest);
     }
@@ -1607,12 +1608,14 @@ input(void)
     /* The MAC puts the 15.4 payload inside the packetbuf data buffer */
     packetbuf_ptr = packetbuf_dataptr();
 
+    printf(">>>>>> RECVD!! %s\n", packetbuf_ptr);
     /* Save the RSSI of the incoming packet in case the upper layer will
        want to query us for it later. */
     last_rssi = (signed short)packetbuf_attr(PACKETBUF_ATTR_RSSI);
 #if SICSLOWPAN_CONF_FRAG
     /* if reassembly timed out, cancel it */
     if(timer_expired(&reass_timer)) {
+        printf(">>>>> Timer Expired!!!\n");
         sicslowpan_len = 0;
         processed_ip_in_len = 0;
     }
@@ -1670,7 +1673,7 @@ input(void)
      * We discard the previous packet, and start reassembling the new packet.
      * This lessens the negative impacts of too high SICSLOWPAN_REASS_MAXAGE.
      */
-#define PRIORITIZE_NEW_PACKETS 1
+#define PRIORITIZE_NEW_PACKETS 0
 #if PRIORITIZE_NEW_PACKETS
 
     if(!is_fragment) {
@@ -1780,7 +1783,7 @@ input(void)
         int req_size = UIP_LLH_LEN + uncomp_hdr_len + (uint16_t)(frag_offset << 3)
                        + packetbuf_payload_len;
         if(req_size > sizeof(sicslowpan_buf)) {
-            PRINTF(
+            printf(
                     "SICSLOWPAN: packet dropped, minimum required SICSLOWPAN_IP_BUF size: %d+%d+%d+%d=%d (current size: %d)\n",
                     UIP_LLH_LEN, uncomp_hdr_len, (uint16_t)(frag_offset << 3),
                     packetbuf_payload_len, req_size, sizeof(sicslowpan_buf));
@@ -1805,7 +1808,7 @@ input(void)
         } else {
             processed_ip_in_len += packetbuf_payload_len;
         }
-        PRINTF("processed_ip_in_len %d, packetbuf_payload_len %d\n", processed_ip_in_len, packetbuf_payload_len);
+        printf("processed_ip_in_len %d, packetbuf_payload_len %d\n", processed_ip_in_len, packetbuf_payload_len);
 
     } else {
 #endif /* SICSLOWPAN_CONF_FRAG */

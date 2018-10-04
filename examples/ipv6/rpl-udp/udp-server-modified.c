@@ -60,7 +60,7 @@ static void
 tcpip_handler(void)
 {
     char *appdata;
-    PRINTF("SERVER >>>>>>>>>>>>>>>>>>>>>>> %s\n", (char*)uip_appdata);
+    printf("UDPSERVER >>>>>>>>>>  %s\n", uip_appdata);
     if(uip_newdata()) {
         appdata = (char *)uip_appdata;
         appdata[uip_datalen()] = 0;
