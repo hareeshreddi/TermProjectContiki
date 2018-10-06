@@ -13,11 +13,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f8b04d16-02e6-4d12-b28f-996384304297" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/net/ipv6/sicslowpan.c" beforeDir="false" afterPath="$PROJECT_DIR$/core/net/ipv6/sicslowpan.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/net/ipv6/uip6.c" beforeDir="false" afterPath="$PROJECT_DIR$/core/net/ipv6/uip6.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/net/rpl/rpl-icmp6.c" beforeDir="false" afterPath="$PROJECT_DIR$/core/net/rpl/rpl-icmp6.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/ipv6/rpl-udp/udp-client-modified.c" beforeDir="false" afterPath="$PROJECT_DIR$/examples/ipv6/rpl-udp/udp-client-modified.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/z1/contiki-conf.h" beforeDir="false" afterPath="$PROJECT_DIR$/platform/z1/contiki-conf.h" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,17 +44,18 @@
           <entry key="project.open.time.39" value="2" />
           <entry key="project.open.time.40" value="1" />
           <entry key="project.open.time.42" value="1" />
+          <entry key="project.open.time.43" value="1" />
           <entry key="project.open.time.44" value="1" />
           <entry key="project.open.time.45" value="1" />
           <entry key="project.open.time.47" value="1" />
-          <entry key="project.opened" value="23" />
+          <entry key="project.opened" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="Makefile" value="2" />
-          <entry key="c" value="139" />
-          <entry key="h" value="82" />
+          <entry key="c" value="144" />
+          <entry key="h" value="84" />
           <entry key="py" value="2" />
           <entry key="txt" value="4" />
         </counts>
@@ -66,20 +63,20 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CMakeLists.txt" value="4" />
-          <entry key="ObjectiveC" value="221" />
+          <entry key="ObjectiveC" value="228" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="Python" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="c" value="3744" />
+          <entry key="c" value="3745" />
           <entry key="h" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="ObjectiveC" value="3761" />
+          <entry key="ObjectiveC" value="3762" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.cidr.testingFrameworks.usages" />
@@ -91,8 +88,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/core/net/rpl/rpl-icmp6.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="453" column="39" selection-start-line="453" selection-start-column="39" selection-end-line="453" selection-end-column="39" />
+            <state relative-caret-position="119">
+              <caret line="446" column="25" selection-start-line="446" selection-start-column="25" selection-end-line="446" selection-end-column="25" />
               <folding>
                 <element signature="e#2038#2063#0" expanded="true" />
                 <element signature="e#5790#5907#0" expanded="true" />
@@ -106,37 +103,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/net/ipv6/uip6.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="1241" column="14" selection-start-line="1241" selection-start-column="14" selection-end-line="1241" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/examples/ipv6/rpl-collect/udp-sender.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="78" column="3" selection-start-line="78" selection-start-column="3" selection-end-line="78" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/examples/ipv6/rpl-collect/udp-sink.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2464" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/net/ip/uip.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="103" column="2" selection-start-line="103" selection-start-column="2" selection-end-line="103" selection-end-column="2" />
-              <folding>
-                <element signature="e#2103#2153#0" expanded="true" />
-                <element signature="e#54632#62954#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="21097">
+              <caret line="1242" column="12" selection-start-line="1242" selection-start-column="12" selection-end-line="1242" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -144,8 +112,23 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/net/rpl/rpl-dag.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="697">
-              <caret line="749" column="63" selection-start-line="749" selection-start-column="55" selection-end-line="749" selection-end-column="63" />
+            <state relative-caret-position="-85">
+              <caret line="392" column="1" selection-start-line="392" selection-start-column="1" selection-end-line="392" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/net/rpl/rpl.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="553">
+              <caret line="222" column="19" selection-start-line="222" selection-start-column="19" selection-end-line="222" selection-end-column="19" />
+              <folding>
+                <element signature="e#3521#3553#0" expanded="true" />
+                <element signature="e#5408#5440#0" expanded="true" />
+                <element signature="e#5670#5941#0" expanded="true" />
+                <element signature="e#9276#9317#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -161,11 +144,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>uip_appdata</find>
-      <find>buffer</find>
-      <find>sicslowpan_driver</find>
-      <find>input</find>
-      <find>packetbuf_payload_len</find>
       <find>tcpip_set_outputfunc</find>
       <find>outputfunc</find>
       <find>tcpip_in</find>
@@ -191,6 +169,11 @@
       <find>udp-sender</find>
       <find>min_rank</find>
       <find>forw</find>
+      <find>repair</find>
+      <find>global repa</find>
+      <find>version++</find>
+      <find>version</find>
+      <find>increme</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/core/net/rpl</dir>
@@ -305,6 +288,13 @@
             <path>
               <item name="contiki" type="b2602c69:ProjectViewProjectNode" />
               <item name="contiki" type="462c0819:PsiDirectoryNode" />
+              <item name="examples" type="462c0819:PsiDirectoryNode" />
+              <item name="ipv6" type="462c0819:PsiDirectoryNode" />
+              <item name="rpl-udp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="contiki" type="b2602c69:ProjectViewProjectNode" />
+              <item name="contiki" type="462c0819:PsiDirectoryNode" />
               <item name="platform" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -386,17 +376,18 @@
       <workItem from="1538632202081" duration="4847000" />
       <workItem from="1538655485805" duration="595000" />
       <workItem from="1538656589328" duration="10411000" />
+      <workItem from="1538835228949" duration="3433000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="152401000" />
+    <option name="totallyTimeSpent" value="155834000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-11" width="1303" height="780" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22709164" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2310757" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -424,16 +415,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/core/net/mac/mac.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="53" column="7" selection-start-line="53" selection-start-column="7" selection-end-line="53" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/net/mac/mac.c">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/net/mac/csma.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="857">
@@ -625,9 +606,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="558">
           <caret line="65" column="3" selection-start-line="65" selection-start-column="3" selection-end-line="65" selection-end-column="3" />
-          <folding>
-            <element signature="e#1823#1857#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -638,13 +616,6 @@
           <folding>
             <element signature="e#1840#1869#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/net/rpl/rpl-timers.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="76" column="10" selection-start-line="76" selection-start-column="10" selection-end-line="76" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -672,35 +643,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/net/rpl/rpl-private.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="212" column="7" selection-start-line="212" selection-start-column="7" selection-end-line="212" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/include/stdint.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="205">
           <caret line="48" column="28" selection-start-line="48" selection-start-column="28" selection-end-line="48" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/net/rpl/rpl.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="199" column="7" selection-start-line="199" selection-start-column="7" selection-end-line="199" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/net/ip/uip.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="103" column="2" selection-start-line="103" selection-start-column="2" selection-end-line="103" selection-end-column="2" />
-          <folding>
-            <element signature="e#2103#2153#0" expanded="true" />
-            <element signature="e#54632#62954#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -711,9 +657,59 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/core/net/ipv6/uip-icmp6.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1669">
+          <caret line="294" selection-start-line="294" selection-end-line="294" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/ipv6/rpl-collect/udp-sender-modified.c" />
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="3984" column="44" selection-start-line="3984" selection-start-column="34" selection-end-line="3984" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/net/ipv6/uip6.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21097">
+          <caret line="1242" column="12" selection-start-line="1242" selection-start-column="12" selection-end-line="1242" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/ipv6/rpl-collect/udp-sender.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1326">
+          <caret line="78" column="3" selection-start-line="78" selection-start-column="3" selection-end-line="78" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/ipv6/rpl-collect/udp-sink.c">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/net/ip/uip.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1751">
+          <caret line="103" column="2" selection-start-line="103" selection-start-column="2" selection-end-line="103" selection-end-column="2" />
+          <folding>
+            <element signature="e#2103#2153#0" expanded="true" />
+            <element signature="e#54632#62954#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/net/rpl/rpl-dag-root.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="102" column="23" selection-start-line="102" selection-start-column="16" selection-end-line="102" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/core/net/rpl/rpl.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1959">
+        <state relative-caret-position="553">
           <caret line="222" column="19" selection-start-line="222" selection-start-column="19" selection-end-line="222" selection-end-column="19" />
           <folding>
             <element signature="e#3521#3553#0" expanded="true" />
@@ -724,64 +720,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/net/rpl/rpl-dag.c">
+    <entry file="file://$PROJECT_DIR$/core/net/rpl/rpl-timers.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="749" column="63" selection-start-line="749" selection-start-column="55" selection-end-line="749" selection-end-column="63" />
+        <state relative-caret-position="187">
+          <caret line="113" column="41" selection-start-line="113" selection-start-column="34" selection-end-line="113" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/net/ipv6/uip-icmp6.c">
+    <entry file="file://$PROJECT_DIR$/core/net/rpl/rpl.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1669">
-          <caret line="294" selection-start-line="294" selection-end-line="294" />
+        <state relative-caret-position="197">
+          <caret line="241" column="11" lean-forward="true" selection-start-line="241" selection-start-column="11" selection-end-line="241" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/net/rime/rudolph1.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5100">
+          <caret line="321" column="5" selection-start-line="321" selection-start-column="5" selection-end-line="321" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/net/rpl/rpl-private.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="199" column="8" selection-start-line="199" selection-start-column="8" selection-end-line="199" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/net/rpl/rpl-dag.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-85">
+          <caret line="392" column="1" selection-start-line="392" selection-start-column="1" selection-end-line="392" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/examples/ipv6/rpl-udp/udp-client-modified.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1782">
+        <state relative-caret-position="1986">
           <caret line="197" column="14" selection-start-line="197" selection-start-column="14" selection-end-line="197" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/ipv6/rpl-collect/udp-sink.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2464" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/ipv6/rpl-collect/udp-sender-modified.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="226" lean-forward="true" selection-start-line="226" selection-end-line="226" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="3984" column="44" selection-start-line="3984" selection-start-column="34" selection-end-line="3984" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/ipv6/rpl-collect/udp-sender.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="78" column="3" selection-start-line="78" selection-start-column="3" selection-end-line="78" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/net/ipv6/uip6.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="1241" column="14" selection-start-line="1241" selection-start-column="14" selection-end-line="1241" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/net/rpl/rpl-icmp6.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="453" column="39" selection-start-line="453" selection-start-column="39" selection-end-line="453" selection-end-column="39" />
+        <state relative-caret-position="119">
+          <caret line="446" column="25" selection-start-line="446" selection-start-column="25" selection-end-line="446" selection-end-column="25" />
           <folding>
             <element signature="e#2038#2063#0" expanded="true" />
             <element signature="e#5790#5907#0" expanded="true" />

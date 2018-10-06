@@ -444,6 +444,7 @@ dio_output(rpl_instance_t *instance, uip_ipaddr_t *uc_addr)
   pos = 0;
 
   buffer = UIP_ICMP_PAYLOAD;
+  RPL_LOLLIPOP_INCREMENT(dag->version);
   buffer[pos++] = instance->instance_id;
   buffer[pos++] = dag->version;
 
